@@ -1,0 +1,285 @@
+{
+  "Metadata": {
+    "Name": "TypoFix",
+    "Author": "igi",
+    "Version": "1",
+    "RequiredInstallerVersion": 1
+  },
+  "Mod": {
+    "Actions": [
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/main.txt",
+        "specifier": "$.values[?(@.k == 'AREA/TW2v1/crystalBallInfo')]",
+        "additional": "v",
+        "change": "This globe reveals a kaleidoscope of swirling colors and vapors, mesmerizing the viewer"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_Alumu_finalBattle.txt",
+        "specifier": "$.values[?(@.k == 'DIA/Alumu_finalBattle/8answ2')]",
+        "additional": "v",
+        "change": "You know how it is. You're in a tavern, the innkeeper brings you a whole gallon of ale, one thing leads to another, and pow! You're betraying your alliances."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_a_lost_friend.txt",
+        "specifier": "$.values[?(@.k == 'DIA/Alumu_finalBattle/8answ2')]",
+        "additional": "v",
+        "change": "What? That is wonderful news, small 'un! Thank you for all you have done! Here, take this slingy thing. It belonged to one of you, small 'uns. He was... not as gentle as you."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_Ch2_God_Alumu.txt",
+        "specifier": "$.values[?(@.k == 'DIA/Ch2_God_Alumu/0brn3')]",
+        "additional": "v",
+        "change": "I would rather you did not interfere with Rillow affairs by offending my warriors. I heard Etarkun was the aggressor, so you may walk this time. Let this be your one and only warning: causing bloodshed in the Garden will not go unpunished."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_GoD_commoner.txt",
+        "specifier": "$.values[?(@.k == 'DIA/GoD_commoner/0rnd4')]",
+        "additional": "v",
+        "change": "If you get hurt, visit the medic's tent! It's the one with green curtains, can't miss it."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_loves_labours_found_lily.txt",
+        "specifier": "$.values[?(@.k == 'DIA/loves_labours_found_lily/9')]",
+        "additional": "v",
+        "change": "Have you been at the ale, child? Who told you about my bethrothed?"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_arvex_default_loop.txt",
+        "specifier": "$.values[?(@.k == 'DIA/arvex_default_loop/7brn1')]",
+        "additional": "v",
+        "change": "During that same massacre, I suffered a diabolical curse. Elenuator himself doomed me to walk Yerengal undying, unageing, for as long as it shall please him."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_tw1_priest_faithful.txt",
+        "specifier": "$.values[?(@.k == 'DIA/tw1_priest_faithful/7brn2')]",
+        "additional": "v",
+        "change": "Come, now. Help your brethren spread his radiance. Let his love bring protection to us all."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_tw5_red_damsel.txt",
+        "specifier": "$.values[?(@.k == 'DIA/tw5_red_damsel/2brn1')]",
+        "additional": "v",
+        "change": "Good, we have plenty o' those! Which one would you like?"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_Assault_on_Castle_Alastor_Zornilsa.txt",
+        "specifier": "$.values[?(@.k == 'DIA/Assault_on_Castle_Alastor_Zornilsa/36brn1')]",
+        "additional": "v",
+        "change": "I knew a hero of your calibre would see reason eventually."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_party_manager_finalize.txt",
+        "specifier": "$.values[?(@.k == 'DIA/party_manager_finalize/15brn1')]",
+        "additional": "v",
+        "change": "Farewell, {PLAYERNAME}. I think you'll start missing me soon enough."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_reckless_spirit_winona.txt",
+        "specifier": "$.values[?(@.k == 'DIA/reckless_spirit_winona/15brn1')]",
+        "additional": "v",
+        "change": "I... I don't feel like letting it go. It's my only memory of her. I'm happy you thought of her though!"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_sea_hag.txt",
+        "specifier": "$.values[?(@.k == 'DIA/sea_hag/70brn1')]",
+        "additional": "v",
+        "change": "Such questions are far beyond the ken of an old sea hag, my dear. You shall have to find the answers elsewhere."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_the_destined_herbalist.txt",
+        "specifier": "$.values[?(@.k == 'DIA/the_destined_herbalist/17brn1')]",
+        "additional": "v",
+        "change": "Such questions are far beyond the ken of an old herb peddler, my dear. I’m afraid I have only disappointed you."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_Trial_Sequence_2_trial.txt",
+        "specifier": "$.values[?(@.k == 'DIA/Trial_Sequence_2_trial/1answ4')]",
+        "additional": "v",
+        "change": "As Your Majesty anticipated, the evidence against the treacherous Duke Kjarvalr was both copious and irrefutable. The duke’s private quarters were a blood spattered abattoir of human –and other– body parts. No one was innocent enough to be spared from his depraved practices, not the elderly nor children nor even favorite household pets. It is my belief that in addition to being a traitor, the Duke was a practitioner of the blackest magical arts and human sacrifice. <i>(Bargain and Persuasion)</i>"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_Trial_Sequence_2_trial.txt",
+        "specifier": "$.values[?(@.k == 'DIA/tw1_2_gh_marco_instructor/9brn1')]",
+        "additional": "v",
+        "change": "In these troubled times, young men need to be shown a good example of perseverance, of honor. To do that, is my duty here."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_tw1_medic.txt",
+        "specifier": "$.values[?(@.k == 'DIA/tw1_medic/0rnd2')]",
+        "additional": "v",
+        "change": "I don't think you should be here. Your'e just even more likely to catch the plague!"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_wl4_merchants.txt",
+        "specifier": "$.values[?(@.k == 'DIA/wl4_merchants/5brn1')]",
+        "additional": "v",
+        "change": "Mildren introduces herself and her companion, Velerius.  They are traders from Riznagar, originally headed to Freynagar's outskirts to trade with those on the outside. They did not manage to complete their trading route due to the bandits who encamped themselves on the road leading there."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_wl4_merchants.txt",
+        "specifier": "$.values[?(@.k == 'DIA/wl4_merchants/6answ3')]",
+        "additional": "v",
+        "change": "shop (only if the player did not success in robbing)"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_wl4_merchants.txt",
+        "specifier": "$.values[?(@.k == 'DIA/wl4_merchants/12brn1')]",
+        "additional": "v",
+        "change": "Mildren is pleased by hearing justice was served. "
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_wl4_merchants.txt",
+        "specifier": "$.values[?(@.k == 'DIA/wl4_merchants/25brn1')]",
+        "additional": "v",
+        "change": "Valerius assumes it to be the case with this group as well, but something's off about them that raises concerns."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/IDG_Ending.txt",
+        "specifier": "$.values[?(@.k == 'IDG/Ending/Ending')]",
+        "additional": "v",
+        "change": "Thank you for playing the Development Build of Black Geyser: Couriers of Darkness."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_belt5.txt",
+        "specifier": "$.values[?(@.k == 'ITM/belt5/Description')]",
+        "additional": "v",
+        "change": "A rare gift solely given to master Templars, this mighty belt imbues the wearer with a numerous benefits. Their strength is increased, as is their health and their resistance to unnatural magics. They are also able to call upon its innate power to heal their wounds once a day. Finally, the center of the belt can be activated to cast light from within, dissolving darkness around the user. \r\nThe wearer has to be careful though, this piece of equipment is highly sensitive to its environment. If the owner decides to take the path of darkness, the belt might follow them just the same..."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_bullet3.txt",
+        "specifier": "$.values[?(@.k == 'ITM/bullet3/Description')]",
+        "additional": "v",
+        "change": "This ammunition is made from a naturally occurring seed pod. When a pod strikes a target, it will often stick and spread a harmful toxin, which is about as painful as a wasp sting. The more pods stick to a target, the worse the poisoning."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_deronguld_robbery_staff.txt",
+        "specifier": "$.values[?(@.k == 'ITM/deronguld_robbery_staff/Description')]",
+        "additional": "v",
+        "change": "Used to be in possession of the previous priest of Deron-Guld, but the plague has taken his life just like many others. While old, it is a well made staff, waiting to serve a new master. "
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_espen_estate_key.txt",
+        "specifier": "$.values[?(@.k == 'ITM/espen_estate_key/Description')]",
+        "additional": "v",
+        "change": "This key has clearly seen some wear and tear during its years at the Espen Estate. Which lock could it open?"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_levander_crisp.txt",
+        "specifier": "$.values[?(@.k == 'ITM/levander_crisp/Description')]",
+        "additional": "v",
+        "change": "A bouquet of Lavender flowers, dried together."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_levander_dry.txt",
+        "specifier": "$.values[?(@.k == 'ITM/levander_dry/Description')]",
+        "additional": "v",
+        "change": "A bouquet of Lavender flowers, dried together."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_longsword1.txt",
+        "specifier": "$.values[?(@.k == 'ITM/longsword1/Description')]",
+        "additional": "v",
+        "change": "A high quality sword, decorated strongly, yet in a way to retain perfect functionality. Swords like it are often given to military captains as acknowledgement for their successes. The blade is finely polished and perfectly sharpened, made from high quality ores, and adorned with expensive metals. Unsheathing it imposes respect from the hearts of fellow soldiers, and the one who wields it is entitled to command them in battle."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_warhammer7.txt",
+        "specifier": "$.values[?(@.k == 'ITM/warhammer7/Description')]",
+        "additional": "v",
+        "change": "A blacksmith's tool, that works surprisingly well as a backup weapon. Hammers don't require extensive training to use effectively. A good, strong swing in the general direction of the opponent may often prove to be more than enough."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/main.txt",
+        "specifier": "$.values[?(@.k == 'DIA/blacksmith/answer_goodbye')]",
+        "additional": "v",
+        "change": "Goodbye"
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/main.txt",
+        "specifier": "$.values[?(@.k == 'DIA/test/5add2')]",
+        "additional": "v",
+        "change": "You already choose the second, one time only answer."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_wl22_arnulf.txt",
+        "specifier": "$.values[?(@.k == 'DIA/wl22_arnulf/2brn1')]",
+        "additional": "v",
+        "change": "Believe me when I tell you I know my way around a fight, but I can’t see any way to push through <i>that</i> atrocious mess! Spiders and writhers are fine, but the undead are too much for me to handle. I can't continue my journey as long as any of those rotten carcasses shamble around."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/DIA_zalia.txt",
+        "specifier": "$.values[?(@.k == 'DIA/zalia/9brn1')]",
+        "additional": "v",
+        "change": "Yes, yes. He was such a sweet boy. And he was going to be married! I'm sure his fiancée Gizelle is worried sick, too. Oh. Maybe she knows where he is! She lives just on the other side of town. I should go see her."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_armor_lgt_brigandine1.txt",
+        "specifier": "$.values[?(@.k == 'ITM/armor_lgt_brigandine1/Description')]",
+        "additional": "v",
+        "change": "A brigandine made out of hardened leather and metal plates, designed to protect the torso and waist of the wearer. It is among the least flexible forms of light armor, but leaves the movement of the arms unhindered. Of course, this also means that they are left without defense. Lightly armored guardsmen are often equipped with a variation of this brigandine. It's the cheapest option with the protective strength of metal for smaller settlements with limited resources. "
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_jolvar_noekyk_mushroom.txt",
+        "specifier": "$.values[?(@.k == 'ITM/jolvar_noekyk_mushroom/Description')]",
+        "additional": "v",
+        "change": "A rare mushroom that grows in forests and swamps where magical energies run rampant. Consuming it raw causes vivid hallucinations that might last for days, and then some for a poor soul to recover. Properly processed, it can becomes suitable for recreational use, and is enjoyed by the hedonists of Yerengal. It can also be used to numb pain, and turn a suffering person's mind to focus on something completely different."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_robe3.txt",
+        "specifier": "$.values[?(@.k == 'ITM/robe3/Description')]",
+        "additional": "v",
+        "change": "A set of stylish robes, worn by initiate practitioners of magic. It doesn't really help much with casting spells so to say, but gives a state of elevated confidence to the wearer."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_robe4.txt",
+        "specifier": "$.values[?(@.k == 'ITM/robe4/Description')]",
+        "additional": "v",
+        "change": "A set of stylish robes, worn by initiate practitioners of magic. It doesn't really help much with casting spells so to say, but gives a state of elevated confidence to the wearer."
+      },
+      {
+        "operation": "jpatch",
+        "file": "data/languages/en/ITM_scroll_elenuator_boots.txt",
+        "specifier": "$.values[?(@.k == 'ITM/scroll_elenuator_boots/Description')]",
+        "additional": "v",
+        "change": "This spell enchants the target's feet with the quickness of Elenuator, granting them increased movement speed. The target gains Quickened."
+      }
+    ]
+  }
+}
